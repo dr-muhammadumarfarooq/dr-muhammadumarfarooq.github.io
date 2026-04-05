@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://dr-muf.github.io/sitemap.xml
+Sitemap: https://dr-muhammadumarfarooq.github.io/sitemap.xml

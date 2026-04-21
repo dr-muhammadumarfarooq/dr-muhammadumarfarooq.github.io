@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Ph.D. Candidate in Mechanical Engineering, University of Michigan
 
@@ -9,45 +9,36 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>Department of Mechanical Engineering</p>
-    <p>University of Michigan</p>
     <p>Ann Arbor, Michigan, USA</p>
     <p><a href="mailto:muf@umich.edu">muf@umich.edu</a></p>
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:
-  enabled: false
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: false
 ---
 
-Hi, I’m **Muhammad Umar Farooq**. I am a Ph.D. Candidate in Mechanical Engineering at the **University of Michigan**, where I work in the **Resourceful Manufacturing and Design (ReMaDe) Lab** under the guidance of **Prof. Daniel Cooper**.
+Hi, I’m glad you’re here!
 
-My research focuses on **sustainable manufacturing**, **physics-informed and data-driven modeling**, **multi-fidelity learning**, **uncertainty quantification**, and **optimization under uncertainty**. I am particularly interested in building trustworthy AI tools for **life cycle assessment**, **industrial decarbonization**, and **manufacturing decision support**.
+I’m a **Ph.D. Candidate in Mechanical Engineering** at the **University of Michigan**, where I work in the **Resourceful Manufacturing and Design (ReMaDe) Lab** under the guidance of **Prof. Daniel Cooper**.
 
-My current work develops reproducible and uncertainty-aware methods for product carbon accounting, process sustainability assessment, and manufacturing systems optimization. I have also worked on tribology, bearing diagnostics, and data-driven tools for reliability and process monitoring.
+My research broadly contributes to **sustainable manufacturing**, **industrial decarbonization**, and **AI-enabled engineering decision support**, with a particular focus on closing the gap between data-limited industrial systems and trustworthy, uncertainty-aware modeling tools. I am especially interested in **physics-informed and data-driven modeling**, **multi-fidelity learning**, **uncertainty quantification**, **optimization under uncertainty**, **life cycle assessment**, and **supply-chain decarbonization**.
 
-Before joining Michigan, I completed the **Erasmus Mundus Joint M.Sc. in Tribology of Surfaces and Interfaces** through the **TRIBOS+ Consortium**, and previously earned both my **M.Sc. in Engineering Management** and **B.Sc. in Industrial and Manufacturing Engineering** from the **University of Engineering and Technology Lahore**.
+My current work develops reproducible and interpretable methods for product carbon accounting, sustainability assessment, and process optimization in manufacturing industries. Across these efforts, I aim to build practical AI tools that support engineering decisions with traceability, uncertainty awareness, and domain knowledge integration.
+
+Before joining Michigan, I completed the **Erasmus Mundus Joint M.Sc. in Tribology of Surfaces and Interfaces** through the **TRIBOS+ Consortium** across Europe, and previously earned both my **M.Sc. in Engineering Management** and **B.Sc. in Industrial and Manufacturing Engineering** from the **University of Engineering and Technology Lahore**.
+
+I enjoy solving manufacturing problems with model-aware and data-efficient methods. Please feel free to browse around and reach out if anything interests you.
 
 ## Research Interests
 
-1. **Sustainable manufacturing and industrial decarbonization**  
-   Life cycle assessment, product carbon footprinting, material efficiency, and supply-chain decarbonization.
-
-2. **Physics-integrated AI for manufacturing**  
-   Physics-informed learning, multi-fidelity modeling, explainable machine learning, and intelligent manufacturing systems.
-
-3. **Uncertainty-aware engineering decision support**  
-   Uncertainty quantification, Bayesian and data-driven modeling, and optimization under uncertainty.
-
-4. **Manufacturing processes and systems**  
-   Aluminum extrusion, machining and EDM, tribology, diagnostics, and reliability-oriented process improvement.
-
-## Selected Research Highlights
-
-- **EcoSheet Informatics** — an uncertainty-aware product carbon accounting and supplier-comparison pipeline for manufacturing supply chains.
-- **AutoLCA-Copilot** — a prototype workflow that uses large language models to extract process assumptions and constraints from technical documents into structured LCA-ready representations.
-- **Bearing Test Rig Signal Processor** — a standardized signal-processing and experiment-reporting workflow for diagnostics, uncertainty tracking, and failure-mode comparison.
+1. **Sustainable manufacturing and industrial decarbonization**: life cycle assessment, product carbon footprinting, material efficiency, and supply-chain decarbonization.
+2. **Physics-integrated AI for manufacturing**: physics-informed learning, explainable machine learning, multi-fidelity modeling, and intelligent manufacturing systems.
+3. **Uncertainty-aware engineering decision support**: uncertainty quantification, Bayesian and data-driven modeling, and optimization under uncertainty.
+4. **Manufacturing processes and systems**: aluminum extrusion, machining and EDM, tribology, diagnostics, and reliability-oriented process improvement.

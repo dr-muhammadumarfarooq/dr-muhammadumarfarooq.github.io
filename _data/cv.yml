@@ -1,0 +1,143 @@
+cv:
+  name: Muhammad Umar Farooq
+  label: Ph.D. Candidate in Mechanical Engineering
+  email: muf@umich.edu
+  location: Ann Arbor, Michigan, USA
+  image: prof_pic.jpg
+  summary: >
+    Ph.D. Candidate in Mechanical Engineering at the University of Michigan working on
+    sustainable manufacturing, multi-fidelity AI, uncertainty-aware modeling, and
+    industrial decarbonization.
+
+  social_networks:
+    - network: GitHub
+      username: dr-muhammadumarfarooq
+    - network: ORCID
+      username: 0000-0003-4139-2082
+
+  sections:
+    Education:
+      - institution: University of Michigan, Ann Arbor
+        location: Ann Arbor, Michigan, USA
+        area: Mechanical Engineering
+        studyType: Ph.D.
+        start_date: 2023
+        end_date: 2027
+        score: "4.00/4.00"
+        highlights:
+          - "Advisor: Prof. Daniel Cooper"
+          - "Dissertation: Multi-fidelity AI Tools for Decarbonization of Manufacturing Industries"
+          - "Expected completion: May 2027"
+
+      - institution: University of Leeds and TRIBOS+ Consortium Europe
+        location: Europe
+        area: Tribology of Surfaces and Interfaces
+        studyType: Erasmus Mundus Joint M.Sc.
+        start_date: 2021
+        end_date: 2023
+        highlights:
+          - "Institutions: University of Leeds, University of Ljubljana, University of Coimbra, and Luleå University of Technology"
+          - "Erasmus Mundus Joint Master Degree scholarship recipient"
+          - "Thesis: Tribological Performance of Ball Bearing Subjected to an Electric Field"
+
+      - institution: University of Engineering and Technology Lahore
+        location: Lahore, Pakistan
+        area: Engineering Management
+        studyType: M.Sc.
+        start_date: 2019
+        end_date: 2021
+        score: "3.88/4.00"
+
+      - institution: University of Engineering and Technology Lahore
+        location: Lahore, Pakistan
+        area: Industrial and Manufacturing Engineering
+        studyType: B.Sc.
+        start_date: 2015
+        end_date: 2019
+        highlights:
+          - "President’s Gold Medal"
+
+    Experience:
+      - company: Resourceful Manufacturing and Design (ReMaDe) Lab, University of Michigan
+        position: Graduate Student Research Assistant
+        location: Ann Arbor, Michigan, USA
+        start_date: 2023
+        end_date: Present
+        highlights:
+          - "Lead technical contributor on physics-integrated AI and carbon-accounting tools for manufacturing and supply chains"
+          - "Develop reproducible workflows for validation, uncertainty reporting, and engineering decision support"
+          - "Mentor and onboard new researchers in Python, version control, and research documentation"
+
+      - company: The Sargent Centre for Process Systems Engineering, University College London
+        position: Visiting Researcher
+        location: London, United Kingdom
+        start_date: 2024-09
+        end_date: 2024-09
+        highlights:
+          - "Collaborated on explainable machine-learning methods for modeling and optimization under uncertainty in engineered systems"
+
+      - company: Scania AB
+        position: Research Student, TRIBOS+ Industry Project
+        location: Södertälje, Sweden
+        start_date: 2022
+        end_date: 2023
+        highlights:
+          - "Studied tribological behavior of machine elements under electrified conditions with applications to electric-vehicle drivetrain durability"
+
+      - company: SKF Research Center
+        position: Software Engineering Trainee, Data Science and Signal Processing
+        location: Nieuwegein, The Netherlands
+        start_date: 2022
+        end_date: 2022
+        highlights:
+          - "Developed an automated signal-processing tool with feature engineering for bearing diagnostics in high-speed rail applications"
+
+    Awards:
+      - title: Rackham Conference Travel Award
+        date: 2025
+        awarder: University of Michigan
+        summary: "US$1,150"
+
+      - title: Outstanding Reviewer Award
+        date: 2024
+        awarder: Manufacturing Letters (SME)
+
+      - title: Rackham Conference Travel Award
+        date: 2024
+        awarder: University of Michigan
+        summary: "US$900"
+
+      - title: Rackham Graduate Student Research Grant
+        date: 2024
+        awarder: University of Michigan
+        summary: "US$1,500"
+
+      - title: Erasmus Mundus Scholarship
+        date: 2021
+        awarder: European Commission
+        summary: "EUR 47,000"
+
+      - title: President’s Gold Medal
+        date: 2019
+        awarder: UET Lahore
+
+    Skills:
+      - name: Research Areas
+        keywords:
+          - Sustainable manufacturing
+          - Physics-informed and data-driven modeling
+          - Multi-fidelity learning
+          - Uncertainty quantification
+          - Optimization under uncertainty
+          - Life cycle assessment
+          - Supply chain decarbonization
+          - Intelligent manufacturing systems
+
+      - name: Programming and Software
+        keywords:
+          - Python
+          - Scientific computing
+          - Machine learning
+          - Optimization
+          - Reproducible workflows
+          - Git

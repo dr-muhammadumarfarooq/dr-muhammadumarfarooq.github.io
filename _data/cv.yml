@@ -1,189 +1,242 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
+  name: Muhammad Umar Farooq
+  label: Ph.D. Candidate in Mechanical Engineering
+  email: muf@umich.edu
+  location: Ann Arbor, Michigan, USA
+  image: prof_pic.jpg
+  summary: >
+    Ph.D. Candidate in Mechanical Engineering at the University of Michigan working on
+    sustainable manufacturing, multi-fidelity AI, uncertainty-aware modeling, and
+    industrial decarbonization. Research interests include physics-informed and
+    data-driven modeling, life cycle assessment, optimization under uncertainty,
+    and intelligent manufacturing systems.
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: dr-muhammadumarfarooq
+    - network: ORCID
+      username: 0000-0003-4139-2082
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: University of Michigan, Ann Arbor
+        location: Ann Arbor, Michigan, USA
+        area: Mechanical Engineering
+        studyType: Ph.D.
+        start_date: 2023
+        end_date: 2027
+        score: "4.00/4.00"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Advisor: Prof. Daniel Cooper"
+          - "Dissertation: Multi-fidelity AI Tools for Decarbonization of Manufacturing Industries"
+          - "Expected completion: May 2027"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: University of Leeds and TRIBOS+ Consortium Europe
+        location: Europe
+        area: Tribology of Surfaces and Interfaces
+        studyType: Erasmus Mundus Joint M.Sc.
+        start_date: 2021
+        end_date: 2023
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Institutions: University of Leeds, University of Ljubljana, University of Coimbra, and Luleå University of Technology"
+          - "Erasmus Mundus Joint Master Degree scholarship recipient"
+          - "Thesis: Tribological Performance of Ball Bearing Subjected to an Electric Field"
+
+      - institution: University of Engineering and Technology Lahore
+        location: Lahore, Pakistan
+        area: Engineering Management
+        studyType: M.Sc.
+        start_date: 2019
+        end_date: 2021
+        score: "3.88/4.00"
+
+      - institution: University of Engineering and Technology Lahore
+        location: Lahore, Pakistan
+        area: Industrial and Manufacturing Engineering
+        studyType: B.Sc.
+        start_date: 2015
+        end_date: 2019
+        highlights:
+          - "President’s Gold Medal"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Resourceful Manufacturing and Design (ReMaDe) Lab, University of Michigan
+        position: Graduate Student Research Assistant
+        location: Ann Arbor, Michigan, USA
+        start_date: 2023
+        end_date: Present
+        summary: >
+          Lead technical contributor on physics-integrated AI and carbon-accounting tools for manufacturing and supply chains.
         highlights:
-          - Relativity
-          - Description 2.
+          - "Develop reproducible workflows for validation, uncertainty reporting, and engineering decision support"
+          - "Mentor and onboard new researchers in Python, version control, and research documentation"
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: The Sargent Centre for Process Systems Engineering, University College London
+        position: Visiting Researcher
+        location: London, United Kingdom
+        start_date: 2024-09
+        end_date: 2024-09
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Collaborated on explainable machine-learning methods for modeling and optimization under uncertainty in engineered systems"
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Scania AB
+        position: Research Student, TRIBOS+ Industry Project
+        location: Södertälje, Sweden
+        start_date: 2022
+        end_date: 2023
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "Studied tribological behavior of machine elements under electrified conditions with applications to electric-vehicle drivetrain durability"
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: SKF Research Center
+        position: Software Engineering Trainee, Data Science and Signal Processing
+        location: Nieuwegein, The Netherlands
+        start_date: 2022
+        end_date: 2022
+        highlights:
+          - "Developed an automated signal-processing tool with feature engineering for bearing diagnostics in high-speed rail applications"
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - company: University of Engineering and Technology Lahore
+        position: Graduate Research Assistant and Instructor
+        location: Lahore, Pakistan
+        start_date: 2019
+        end_date: 2021
+        highlights:
+          - "Conducted research on supply-chain resilience and Industry 4.0 readiness"
+          - "Supported project-based laboratory instruction"
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: EcoSheet Informatics
+        summary: >
+          Uncertainty-aware supplier comparison and product carbon accounting pipeline for manufacturing supply chains.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - "Designed for auditability, traceability, and sensitivity analysis"
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: AutoLCA-Copilot
+        summary: >
+          Prototype workflow for extracting process assumptions and constraints from technical documents into structured, life-cycle-assessment-ready representations using large language models.
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Bearing Test Rig Signal Processor
+        summary: >
+          Standardized signal-processing and experiment-reporting workflow for bearing diagnostics, uncertainty tracking, and failure-mode comparison.
+
+    Awards:
+      - title: Rackham Conference Travel Award
+        date: 2025
+        awarder: University of Michigan
+        summary: "US$1,150"
+
+      - title: Outstanding Reviewer Award
+        date: 2024
+        awarder: Manufacturing Letters (SME)
+
+      - title: Rackham Conference Travel Award
+        date: 2024
+        awarder: University of Michigan
+        summary: "US$900"
+
+      - title: Elsevier Open Science Recognition linked to United Nations SDGs
+        date: 2024
+        awarder: Elsevier
+
+      - title: Rackham Graduate Student Research Grant
+        date: 2024
+        awarder: University of Michigan
+        summary: "US$1,500"
+
+      - title: Erasmus Mundus Scholarship
+        date: 2021
+        awarder: European Commission
+        summary: "EUR 47,000"
+
+      - title: Fully Funded Masters Award
+        date: 2019
+        awarder: UET Lahore
+        summary: "US$3,200"
+
+      - title: President’s Gold Medal
+        date: 2019
+        awarder: UET Lahore
+
+    Publications:
+      - title: Data-driven sustainability assessment of advanced manufacturing processes
+        authors:
+          - Muhammad Umar Farooq
+          - Sidi Deng
+        publisher: The International Journal of Advanced Manufacturing Technology
+        releaseDate: 2026-01-15
+        url: https://doi.org/10.1007/s00170-025-17185-0
+        summary: >
+          Critical review proposing a holistic data-driven framework for resource-informed assessment of manufacturing sustainability.
+
+      - title: Investigating a novel approach to reduce transverse weld scrap in aluminum extrusion using profiled dummy blocks and billets
+        authors:
+          - Muhammad Umar Farooq
+          - Gregory Oberhausen
+          - Daniel R. Cooper
+        publisher: International Journal of Material Forming
+        releaseDate: 2025-08-06
+        url: https://doi.org/10.1007/s12289-025-01926-3
+        summary: >
+          Demonstrates profiled dummy blocks and billets as a promising route to major scrap reduction in aluminum extrusion.
+
+      - title: Application of non-ionic liquids-based modified dielectrics during electric discharge machining (EDM) of Ti6Al4V alloy to enhance machining efficiency and process optimization
+        authors:
+          - Muhammad Umar Farooq
+          - Mehdi Tlija
+          - Shafahat Ali
+          - Anamta Khan
+          - Adeolu A. Adediran
+        publisher: Scientific Reports
+        releaseDate: 2024-09-05
+        url: https://doi.org/10.1038/s41598-024-71447-7
+
+      - title: Supply Chain Operations Management in Pandemics: A State-of-the-Art Review Inspired by COVID-19
+        authors:
+          - Muhammad Umar Farooq
+          - Amjad Hussain
+          - Tariq Masood
+          - Muhammad Salman Habib
+        publisher: Sustainability
+        releaseDate: 2021-02-25
+        url: https://doi.org/10.3390/su13052504
+
+    Skills:
+      - name: Research Areas
+        keywords:
+          - Sustainable manufacturing
+          - Physics-informed modeling
+          - Multi-fidelity learning
+          - Uncertainty quantification
+          - Life cycle assessment
+          - Optimization under uncertainty
+          - Supply chain decarbonization
+          - Intelligent manufacturing systems
+
+      - name: Programming and Software
+        keywords:
+          - Python
+          - Scientific computing
+          - Machine learning
+          - Optimization
+          - Reproducible workflows
+          - Git
+
+      - name: Manufacturing Domains
+        keywords:
+          - Aluminum extrusion
+          - Machining and EDM
+          - Tribology
+          - Reliability
+          - Fault detection
+
+    Teaching:
+      - name: Graduate Research Mentor and Workshop Instructor
+        summary: >
+          Mentored M.S. students on AI-driven life cycle assessment and aluminum extrusion optimization; designed onboarding workshops on Python for manufacturing research.
+        start_date: 2023
+        end_date: Present
+
+      - name: Primary Instructor and Teaching Assistant
+        summary: >
+          Primary instructor for Manufacturing Processes Laboratory for more than 40 students; teaching assistant for Industrial Materials and Production Planning & Control.
+        start_date: 2019
+        end_date: 2020

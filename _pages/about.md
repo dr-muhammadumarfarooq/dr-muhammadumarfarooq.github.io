@@ -26,7 +26,7 @@ latest_posts:
 
 Hi, I’m glad you’re here!
 
-I’m a **Ph.D. Candidate in Mechanical Engineering** at the **University of Michigan**, where I work in the **Resourceful Manufacturing and Design (ReMaDe) Lab** under the guidance of **Prof. Daniel Cooper**.
+I’m a **Ph.D. Candidate in Mechanical Engineering** at the **University of Michigan**, where I work in the **Resourceful Manufacturing and Design (ReMaDe) Lab** under the guidance of **Prof. Daniel Cooper (University of Michigan), Prof. Chenhui Shao (University of Illinois Urbana Champaign), Prof. Jeffery Abell (General Motors), Prof. Parth Vaishnav (University of Michigan), and Ming Xu (Tsinghua University)**.
 
 My research broadly contributes to **sustainable manufacturing**, **industrial decarbonization**, and **AI-enabled engineering decision support**, with a particular focus on closing the gap between data-limited industrial systems and trustworthy, uncertainty-aware modeling tools. I am especially interested in **physics-informed and data-driven modeling**, **multi-fidelity learning**, **uncertainty quantification**, **optimization under uncertainty**, **life cycle assessment**, and **supply-chain decarbonization**.
 

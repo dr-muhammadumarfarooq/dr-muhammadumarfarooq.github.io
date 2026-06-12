@@ -5,7 +5,7 @@ cv:
   location: Ann Arbor, Michigan, USA
   image: prof_pic.jpg
   summary: >
-    Ph.D. Candidate in Mechanical Engineering at the University of Michigan working on
+    Ph.D. in Mechanical Engineering at the University of Michigan working on
     sustainable manufacturing, multi-fidelity AI, uncertainty-aware modeling, and
     industrial decarbonization.
 
@@ -22,7 +22,7 @@ cv:
         area: Mechanical Engineering
         studyType: Ph.D.
         start_date: 2023
-        end_date: 2027
+        end_date: 2026
         score: "4.00/4.00"
         highlights:
           - "Advisor: Prof. Daniel Cooper"
@@ -93,6 +93,12 @@ cv:
           - "Developed an automated signal-processing tool with feature engineering for bearing diagnostics in high-speed rail applications"
 
     Awards:
+    
+      - title: Rackham Conference Travel Award
+        date: 2026
+        awarder: University of Michigan
+        summary: "US$1,400"
+        
       - title: Rackham Conference Travel Award
         date: 2025
         awarder: University of Michigan

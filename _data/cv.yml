@@ -25,9 +25,7 @@ cv:
         end_date: 2026
         score: "4.00/4.00"
         highlights:
-          - "Advisor: Prof. Daniel Cooper"
-          - "Dissertation: Multi-fidelity AI Tools for Decarbonization of Manufacturing Industries"
-          - "Expected completion: May 2027"
+          - "Dissertation: From Process to Supply Chain: Efficient AI for Manufacturing Decarbonization"
 
       - institution: University of Leeds and TRIBOS+ Consortium Europe
         location: Europe
@@ -62,7 +60,7 @@ cv:
         position: Graduate Student Research Assistant
         location: Ann Arbor, Michigan, USA
         start_date: 2023
-        end_date: Present
+        end_date: 2026
         highlights:
           - "Lead technical contributor on physics-integrated AI and carbon-accounting tools for manufacturing and supply chains"
           - "Develop reproducible workflows for validation, uncertainty reporting, and engineering decision support"

@@ -12,15 +12,14 @@ on:
 
 jobs:
   check:
-    # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v4
         with:
           node-version: "22"
           cache: npm
@@ -30,23 +29,36 @@ jobs:
 
       - name: Prettier Check
         id: prettier
-        run: npx prettier . --check
+        shell: bash
+        run: |
+          set +e
+          npm run --silent format:list | tee prettier-files.txt
+          status=${PIPESTATUS[0]}
+
+          if [ "$status" -ne 0 ]; then
+            echo "::error::Files listed above need formatting. Run: npm run format"
+          fi
+
+          exit "$status"
 
       - name: Create diff
-        if: ${{ failure() }}
+        if: ${{ failure() && steps.prettier.conclusion == 'failure' }}
         run: |
-          npx prettier . --write
+          npm run --silent format
           git diff -- . ':(exclude)package-lock.json' ':(exclude)package.json' > diff.txt
           npm install -g diff2html-cli
           diff2html -i file -s side -F diff.html -- diff.txt
 
-      - name: Upload HTML diff
+      - name: Upload Prettier diagnostics
         id: artifact-upload
         if: ${{ failure() && steps.prettier.conclusion == 'failure' }}
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v4
         with:
-          name: HTML Diff
-          path: diff.html
+          name: Prettier diagnostics
+          path: |
+            prettier-files.txt
+            diff.txt
+            diff.html
           retention-days: 7
 
       - name: Dispatch information to repository

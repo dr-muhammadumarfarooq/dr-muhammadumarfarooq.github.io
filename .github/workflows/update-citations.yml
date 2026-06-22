@@ -6,7 +6,9 @@ on:
     - cron: "0 0 * * 3" # Wednesday
     - cron: "0 0 * * 5" # Friday
   workflow_dispatch:
-
+  
+permissions:
+  contents: write
 jobs:
   update-citations:
     runs-on: ubuntu-latest

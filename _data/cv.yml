@@ -1,6 +1,6 @@
 cv:
   name: Muhammad Umar Farooq
-  label: Ph.D. Candidate in Mechanical Engineering
+  label: Ph.D. in Mechanical Engineering
   email: muf@umich.edu
   location: Ann Arbor, Michigan, USA
   image: prof_pic.jpg
@@ -91,7 +91,6 @@ cv:
           - "Developed an automated signal-processing tool with feature engineering for bearing diagnostics in high-speed rail applications"
 
     Awards:
-    
       - title: Rackham Conference Travel Award
         date: 2026
         awarder: University of Michigan

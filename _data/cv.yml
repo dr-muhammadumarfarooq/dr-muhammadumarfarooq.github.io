@@ -45,6 +45,9 @@ cv:
         start_date: 2019
         end_date: 2021
         score: "3.88/4.00"
+        highlights:
+          - "Fully funded master degree scholarship recipient"
+          - "Thesis: Assessing Technology (Industry 4.0 Transformation) Readiness of Industries to Combat Future COVID-19 like Disruptions: A Case of Pakistan’s Manufacturing Sector"
 
       - institution: University of Engineering and Technology Lahore
         location: Lahore, Pakistan
@@ -54,6 +57,8 @@ cv:
         end_date: 2019
         highlights:
           - "President’s Gold Medal"
+          - "Fully funded degree scholarship recipient"
+          - "Thesis: Parametric optimization of powder mixed electric discharge machining process for aeronatical alloys and composites"
 
     Experience:
       - company: Resourceful Manufacturing and Design (ReMaDe) Lab, University of Michigan

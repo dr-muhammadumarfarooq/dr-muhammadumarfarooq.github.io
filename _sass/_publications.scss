@@ -132,6 +132,36 @@
           }
         }
       }
+        .publication-placeholder {
+          align-items: center;
+          aspect-ratio: 4 / 3;
+          background:
+            linear-gradient(135deg, rgba(0, 0, 0, 0.08), transparent 38%),
+            linear-gradient(135deg, var(--global-theme-color), var(--global-hover-color));
+          color: white;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          max-width: 100%;
+          min-height: 96px;
+          overflow: hidden;
+          padding: 0.75rem;
+          text-align: center;
+          width: 100%;
+        }
+        
+        .publication-placeholder__abbr {
+          font-size: 0.8rem;
+          font-weight: 700;
+          line-height: 1.2;
+        }
+        
+        .publication-placeholder__year {
+          font-size: 1.2rem;
+          font-weight: 700;
+          line-height: 1.2;
+          margin-top: 0.35rem;
+        }
 
       .hidden {
         font-size: 0.875rem;

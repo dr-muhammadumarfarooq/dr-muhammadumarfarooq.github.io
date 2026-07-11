@@ -43,7 +43,16 @@
         {% endif %}
       {% endif %}
     </div>
-  {% endif %}
+        {% else %}
+        <div class="preview publication-placeholder z-depth-1 rounded" aria-hidden="true">
+          <span class="publication-placeholder__abbr">
+            {% if entry.abbr %}{{ entry.abbr }}{% else %}{{ entry.type | capitalize }}{% endif %}
+          </span>
+          <span class="publication-placeholder__year">
+            {% if entry.year %}{{ entry.year }}{% else %}Paper{% endif %}
+          </span>
+        </div>
+      {% endif %}
 
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">

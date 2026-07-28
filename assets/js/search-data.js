@@ -399,6 +399,9 @@ ninja.data = [{
           section: "News",},{id: "news-visited-the-sargent-centre-for-process-systems-engineering-university-college-london-as-a-visiting-researcher",
           title: 'Visited The Sargent Centre for Process Systems Engineering, University College London as a...',
           description: "",
+          section: "News",},{id: "news-joined-ford-motor-company-as-research-lead-for-the-sheet-metal-components-process-to-supply-chain-project",
+          title: 'Joined Ford Motor Company as Research Lead for the Sheet Metal Components: Process...',
+          description: "",
           section: "News",},{id: "news-received-the-rackham-conference-travel-award-from-the-university-of-michigan",
           title: 'Received the Rackham Conference Travel Award from the University of Michigan.',
           description: "",
@@ -458,6 +461,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("mailto:%6D%75%66@%75%6D%69%63%68.%65%64%75", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/iammufarooq", "_blank");
         },
       },{
         id: 'social-scholar',

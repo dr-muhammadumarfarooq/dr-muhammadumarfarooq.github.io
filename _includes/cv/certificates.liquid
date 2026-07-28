@@ -4,6 +4,7 @@
 
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% for entry in entries %}
+    {% assign issuer = entry.issuer | default: entry.summary %}
     <li class="list-group-item">
       {% if entry.icon %}
         <i class="{{ entry.icon }}"></i>
@@ -16,8 +17,8 @@
         <strong>{{ entry.name }}</strong>
       {% endif %}
 
-      {% if entry.issuer %}
-        - <em>{{ entry.issuer }}</em>
+      {% if issuer %}
+        - <em>{{ issuer }}</em>
       {% endif %}
 
       {% if entry.date %}

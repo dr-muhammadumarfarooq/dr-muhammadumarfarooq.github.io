@@ -1,15 +1,11 @@
 cv:
   name: Muhammad Umar Farooq
-  label: Ph.D. in Mechanical Engineering
   email: muf@umich.edu
   location: Ann Arbor, Michigan, USA
-  image: prof_pic.jpg
-  summary: >
-    Ph.D. in Mechanical Engineering at the University of Michigan working on
-    sustainable manufacturing, multi-fidelity AI, uncertainty-aware modeling, and
-    industrial decarbonization.
 
   social_networks:
+    - network: LinkedIn
+      username: iammufarooq
     - network: GitHub
       username: dr-muhammadumarfarooq
     - network: ORCID
@@ -58,14 +54,23 @@ cv:
         highlights:
           - "President’s Gold Medal"
           - "Fully funded degree scholarship recipient"
-          - "Thesis: Parametric optimization of powder mixed electric discharge machining process for aeronatical alloys and composites"
+          - "Thesis: Parametric optimization of powder mixed electric discharge machining process for aeronautical alloys and composites"
 
     Experience:
+      - company: Ford Motor Company
+        position: "Research Lead, Sheet Metal Components: Process to Supply Chain Project"
+        location: Michigan, USA
+        start_date: 2024-11
+        end_date: present
+        highlights:
+          - "Lead research connecting sheet-metal manufacturing processes with supply-chain analysis and engineering decision support"
+          - "Develop data-driven sustainability and carbon-accounting methods for automotive manufacturing applications"
+
       - company: Resourceful Manufacturing and Design (ReMaDe) Lab, University of Michigan
         position: Graduate Student Research Assistant
         location: Ann Arbor, Michigan, USA
-        start_date: 2023
-        end_date: 2026
+        start_date: 2023-08
+        end_date: present
         highlights:
           - "Lead technical contributor on physics-integrated AI and carbon-accounting tools for manufacturing and supply chains"
           - "Develop reproducible workflows for validation, uncertainty reporting, and engineering decision support"
@@ -82,70 +87,90 @@ cv:
       - company: Scania AB
         position: Research Student, TRIBOS+ Industry Project
         location: Södertälje, Sweden
-        start_date: 2022
-        end_date: 2023
+        start_date: 2022-09
+        end_date: 2023-08
         highlights:
           - "Studied tribological behavior of machine elements under electrified conditions with applications to electric-vehicle drivetrain durability"
 
       - company: SKF Research Center
-        position: Software Engineering Trainee, Data Science and Signal Processing
-        location: Nieuwegein, The Netherlands
-        start_date: 2022
-        end_date: 2022
+        position: Software Engineering Intern
+        location: Nieuwegein, Netherlands
+        start_date: 2022-07
+        end_date: 2022-08
         highlights:
           - "Developed an automated signal-processing tool with feature engineering for bearing diagnostics in high-speed rail applications"
 
+      - company: Lahore University of Management Sciences
+        position: Research Associate
+        location: Lahore, Pakistan
+        start_date: 2021-03
+        end_date: 2021-08
+        highlights:
+          - "Contributed to empirical research on project leadership, external environmental factors, and project success"
+
+      - company: University of Engineering and Technology Lahore
+        position: Graduate Teaching Assistant and Laboratory Instructor
+        location: Lahore, Pakistan
+        start_date: 2019-11
+        end_date: 2020-10
+        highlights:
+          - "Led Manufacturing Processes Laboratory instruction for more than 40 students and developed laboratory activities and assessment rubrics"
+          - "Supported Industrial Materials and Production Planning and Control courses"
+
     Awards:
-      - title: Rackham Conference Travel Award
+      - name: Rackham Conference Travel Award
         date: 2026
-        awarder: University of Michigan
+        location: University of Michigan
         summary: "US$1,400"
 
-      - title: Rackham Conference Travel Award
+      - name: Rackham Conference Travel Award
         date: 2025
-        awarder: University of Michigan
+        location: University of Michigan
         summary: "US$1,150"
 
-      - title: Outstanding Reviewer Award
+      - name: Outstanding Reviewer Award
         date: 2024
-        awarder: Manufacturing Letters (SME)
+        location: Manufacturing Letters (SME)
 
-      - title: Rackham Conference Travel Award
+      - name: Rackham Conference Travel Award
         date: 2024
-        awarder: University of Michigan
+        location: University of Michigan
         summary: "US$900"
 
-      - title: Rackham Graduate Student Research Grant
+      - name: Rackham Graduate Student Research Grant
         date: 2024
-        awarder: University of Michigan
+        location: University of Michigan
         summary: "US$1,500"
 
-      - title: Erasmus Mundus Scholarship
+      - name: Erasmus Mundus Scholarship
         date: 2021
-        awarder: European Commission
+        location: European Commission
         summary: "EUR 47,000"
 
-      - title: President’s Gold Medal
+      - name: President’s Gold Medal
         date: 2019
-        awarder: UET Lahore
+        location: UET Lahore
+
+    Certificates:
+      - name: Oxford Machine Learning Summer School
+        summary: University of Oxford
+        date: 2024-07
+
+      - name: 2D/3D Forming Process Modelling
+        summary: Scientific Forming Technologies Corporation
+        date: 2023-12
+
+      - name: McKinsey Forward Program
+        summary: "McKinsey & Company"
+        date: 2022-12
+
+      - name: 7th International Deep Learning School
+        summary: Luleå University of Technology
+        date: 2022-10
 
     Skills:
-      - name: Research Areas
-        keywords:
-          - Sustainable manufacturing
-          - Physics-informed and data-driven modeling
-          - Multi-fidelity learning
-          - Uncertainty quantification
-          - Optimization under uncertainty
-          - Life cycle assessment
-          - Supply chain decarbonization
-          - Intelligent manufacturing systems
+      - label: Research Areas
+        details: Sustainable manufacturing, physics-informed and data-driven modeling, multi-fidelity learning, uncertainty quantification, optimization under uncertainty, life cycle assessment, supply chain decarbonization, and intelligent manufacturing systems
 
-      - name: Programming and Software
-        keywords:
-          - Python
-          - Scientific computing
-          - Machine learning
-          - Optimization
-          - Reproducible workflows
-          - Git
+      - label: Programming and Software
+        details: Python, scientific computing, machine learning, optimization, reproducible workflows, and Git

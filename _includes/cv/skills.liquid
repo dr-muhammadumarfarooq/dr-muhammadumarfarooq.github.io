@@ -4,12 +4,13 @@
 
 <div class="card-text font-weight-light">
   {% for entry in entries %}
+    {% assign skill_name = entry.name | default: entry.label %}
     <div class="skill-item">
       {% if entry.icon %}
         <i class="{{ entry.icon }}"></i>
       {% endif %}
       <strong>
-        {{- entry.name -}}
+        {{- skill_name -}}
         {%- if entry.level %} ({{ entry.level }}){% endif %}:</strong
       >
       {% if entry.keywords %}
@@ -20,6 +21,8 @@
             {{ keyword }},
           {% endif %}
         {% endfor %}
+      {% elsif entry.details %}
+        {{ entry.details }}
       {% endif %}
     </div>
   {% endfor %}

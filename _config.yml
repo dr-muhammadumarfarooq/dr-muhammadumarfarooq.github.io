@@ -8,11 +8,14 @@ last_name: Farooq
 contact_note: >
   I reply fast on email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Academic website of Muhammad Umar Farooq, a Ph.D. researcher in Mechanical Engineering
+  at the University of Michigan specializing in AI for manufacturing, sustainable
+  manufacturing, industrial decarbonization, life cycle assessment, multi-fidelity
+  learning, and uncertainty-aware engineering.
 footer_text: >
 #   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-# keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Muhammad Umar Farooq, AI for manufacturing, sustainable manufacturing, industrial decarbonization, mechanical engineering, machine learning, life cycle assessment, product carbon footprint, multi-fidelity learning, uncertainty quantification, manufacturing optimization, University of Michigan, Ford Motor Company
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -66,8 +69,8 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------

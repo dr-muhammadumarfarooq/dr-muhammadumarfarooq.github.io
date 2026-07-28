@@ -2,11 +2,14 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Categorized in reverse chronological order.
+description: Journal articles, conference papers, and current research.
 nav: true
 nav_order: 10
 ---
 
-[Google Scholar](https://scholar.google.com.pk/citations?hl=en&user=tLdOQQgAAAAJ&sortby=pubdate&view_op=list_works&authuser=1&gmla=ACrTK9WtkeSb2Xjj0GZS2ewsbXrbr4bYne9Sdz8C54he6srVzH2fLq_ssP9v652x3xmEwubQcxCRJqYdrbMz6VnCWRevtSzmflYdtg)
+For the complete citation record, visit my [Google Scholar profile](https://scholar.google.com/citations?user=tLdOQQgAAAAJ&hl=en).
 
-{% bibliography %}
+<div class="publications">
+  {% include bib_search.liquid %}
+  {% bibliography %}
+</div>

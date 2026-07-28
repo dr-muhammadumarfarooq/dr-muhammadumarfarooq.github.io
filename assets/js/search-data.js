@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "Categorized in reverse chronological order.",
+          description: "Journal articles, conference papers, and current research.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";

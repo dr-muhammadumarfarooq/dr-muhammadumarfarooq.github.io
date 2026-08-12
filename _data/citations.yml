@@ -1,59 +1,59 @@
 metadata:
-  last_updated: "2026-07-28"
+  last_updated: '2026-08-12'
 papers:
-  "2osOgNQ5qMEC":
-    title: "Tribology of electric vehicles: a comprehensive survey of recent developments in components and key future avenues for surfaces and interfaces research"
-    year: "2024"
+  tLdOQQgAAAAJ:2osOgNQ5qMEC:
     citations: 8
-  "9yKSN-GCB0IC":
-    title: "Developing resilience in disaster relief operations management through lean transformation"
-    year: "2023"
-    citations: 45
-  "IjCSPb-OGe4C":
-    title: "Investigating a novel approach to reduce transverse weld scrap in aluminum extrusion using profiled dummy blocks and billets"
-    year: "2025"
+    title: "Tribology of electric vehicles\u2013a comprehensive survey of recent developments in components and key future avenues for surfaces and interfaces research"
+    year: '2024'
+  tLdOQQgAAAAJ:9yKSN-GCB0IC:
+    citations: 44
+    title: Developing resilience in disaster relief operations management through lean transformation
+    year: '2023'
+  tLdOQQgAAAAJ:IjCSPb-OGe4C:
     citations: 3
-  "Tyk-4Ss8FVUC":
-    title: "CARINA: Carbon-Aware Execution of Recurrent Industrial Analytics"
-    year: "2026"
+    title: Investigating a novel approach to reduce transverse weld scrap in aluminum extrusion using profiled dummy blocks and billets
+    year: '2025'
+  tLdOQQgAAAAJ:Tyk-4Ss8FVUC:
     citations: 0
-  "UeHWp8X0CEIC":
-    title: "Supply chain operations management in pandemics: A state-of-the-art review inspired by COVID-19"
-    year: "2021"
-    citations: 183
-  "W7OEmFMy1HYC":
-    title: "Enhancing two dimensional irregular pattern packing using a modified genetic algorithm and image processing"
-    year: "2025"
+    title: 'CARINA: Carbon-Aware Execution of Recurrent Industrial Analytics'
+    year: '2026'
+  tLdOQQgAAAAJ:UeHWp8X0CEIC:
+    citations: 182
+    title: 'Supply chain operations management in pandemics: A state-of-the-art review inspired by COVID-19'
+    year: '2021'
+  tLdOQQgAAAAJ:W7OEmFMy1HYC:
     citations: 4
-  "Y0pCki6q_DkC":
-    title: "Explainable AI and data-driven modeling of tool wear in Dry-MQL-assisted turning of D2 tool steel using AIMPOD"
-    year: "2026"
+    title: Enhancing two dimensional irregular pattern packing using a modified genetic algorithm and image processing
+    year: '2025'
+  tLdOQQgAAAAJ:Y0pCki6q_DkC:
     citations: 0
-  "YsMSGLbcyi4C":
-    title: "Performance evaluation of surfactant mixed dielectric and process optimization for electrical discharge machining of titanium alloy Ti6Al4V"
-    year: "2023"
-    citations: 47
-  "d1gkVwhDpl0C":
-    title: "COVID-19 challenges: can industry 4.0 technologies help with business continuity?"
-    year: "2021"
-    citations: 46
-  "qjMakFHDy7sC":
-    title: "Data-driven sustainability assessment of advanced manufacturing processes"
-    year: "2026"
+    title: "Explainable AI and data-driven modeling of tool wear in Dry\u2013MQL-assisted turning of D2 tool steel using AIMPOD"
+    year: '2026'
+  tLdOQQgAAAAJ:YsMSGLbcyi4C:
+    citations: 48
+    title: Performance evaluation of surfactant mixed dielectric and process optimization for electrical discharge machining of titanium alloy Ti6Al4V
+    year: '2023'
+  tLdOQQgAAAAJ:d1gkVwhDpl0C:
+    citations: 44
+    title: 'COVID-19 challenges: can industry 4.0 technologies help with business continuity?'
+    year: '2021'
+  tLdOQQgAAAAJ:qjMakFHDy7sC:
     citations: 9
-  "u-x6o8ySG0sC":
-    title: "Tribological characterization of a ball bearing subjected to an electric field: electric drivetrain tribology"
-    year: "2023"
+    title: Data-driven sustainability assessment of advanced manufacturing processes
+    year: '2026'
+  tLdOQQgAAAAJ:u-x6o8ySG0sC:
     citations: 5
-  "u5HHmVD_uO8C":
-    title: "Sustainable machining of additive manufactured SS-316L underpinning low carbon manufacturing goal"
-    year: "2023"
-    citations: 43
-  "ufrVoPGSRksC":
-    title: "Accelerating life cycle inventory development through correlation-aware multi-fidelity transfer learning: Case studies in cradle-to-gate manufacturing energy modeling"
-    year: "2026"
+    title: 'Tribological characterization of a ball bearing subjected to an electric field: electric drivetrain tribology'
+    year: '2023'
+  tLdOQQgAAAAJ:u5HHmVD_uO8C:
+    citations: 44
+    title: Sustainable machining of additive manufactured SS-316L underpinning low carbon manufacturing goal
+    year: '2023'
+  tLdOQQgAAAAJ:ufrVoPGSRksC:
     citations: 0
-  "zYLM7Y9cAGgC":
-    title: "Multi-fidelity machine learning framework for life cycle assessment: a manufacturing case study on aluminum rolling"
-    year: "2025"
+    title: 'Accelerating life cycle inventory development through correlation-aware multi-fidelity transfer learning: Case studies in cradle-to-gate manufacturing energy modeling'
+    year: '2026'
+  tLdOQQgAAAAJ:zYLM7Y9cAGgC:
     citations: 7
+    title: 'Multi-fidelity machine learning framework for life cycle assessment: a manufacturing case study on aluminum rolling'
+    year: '2025'

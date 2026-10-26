@@ -31,6 +31,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Check citation updater regressions (offline)
+        run: python -m unittest discover -s tests -p 'test_citation_updater.py' -v
+
       - name: Save current citations.yml hash
         id: before
         run: |
@@ -48,11 +51,10 @@ jobs:
         id: run_citation_update
         shell: bash
         run: |
-          set +e
           echo "🚀 Running citation update script (single attempt)..."
           start_time=$(date)
-          timeout 90 python bin/update_scholar_citations.py
-          status=$?
+          status=0
+          timeout 90 python bin/update_scholar_citations.py || status=$?
           end_time=$(date)
           if [ $status -eq 0 ]; then
             echo "✅ Citation update succeeded (started at $start_time, ended at $end_time)."
@@ -61,7 +63,7 @@ jobs:
             echo "❌ Citation update script failed with exit code $status (started at $start_time, ended at $end_time)."
             echo "❌ Citation update script failed with exit code $status." >> $GITHUB_STEP_SUMMARY
           fi
-          set -e
+          exit "$status"
 
       - name: Save new citations.yml hash
         id: after

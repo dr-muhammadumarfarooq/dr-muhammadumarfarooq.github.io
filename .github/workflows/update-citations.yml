@@ -6,6 +6,11 @@ on:
     - cron: "0 0 * * 3" # Wednesday
     - cron: "0 0 * * 5" # Friday
   workflow_dispatch:
+    inputs:
+      force:
+        description: "Fetch from Scholar even if the data was updated today"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -50,11 +55,17 @@ jobs:
       - name: Run citation update script
         id: run_citation_update
         shell: bash
+        env:
+          FORCE_UPDATE: ${{ inputs.force || false }}
         run: |
           echo "🚀 Running citation update script (single attempt)..."
           start_time=$(date)
+          args=()
+          if [ "$FORCE_UPDATE" = "true" ]; then
+            args+=(--force)
+          fi
           status=0
-          timeout 90 python bin/update_scholar_citations.py || status=$?
+          timeout 90 python bin/update_scholar_citations.py "${args[@]}" || status=$?
           end_time=$(date)
           if [ $status -eq 0 ]; then
             echo "✅ Citation update succeeded (started at $start_time, ended at $end_time)."

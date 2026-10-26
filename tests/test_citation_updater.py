@@ -2,10 +2,13 @@
 
 import os
 from pathlib import Path
+import runpy
 import subprocess
 import sys
 import tempfile
 import unittest
+from datetime import datetime
+from unittest import mock
 
 import yaml
 
@@ -53,13 +56,15 @@ class CitationUpdaterTests(unittest.TestCase):
         self.assertFalse(step.get("continue-on-error", False))
         # Run the actual workflow shell under Actions' Bash flags. Replace only
         # the external command boundary to simulate success, failure and timeout.
-        for status in (0, 1, 124):
-            with self.subTest(status=status), tempfile.TemporaryDirectory() as directory:
+        for status, force in ((0, "false"), (1, "false"), (124, "false"), (0, "true"), (1, "true"), (124, "true")):
+            with self.subTest(status=status, force=force), tempfile.TemporaryDirectory() as directory:
                 directory = Path(directory)
                 command = directory / "timeout"
                 command.write_text(
                     "#!/bin/bash\n"
-                    '[[ "$*" == "90 python bin/update_scholar_citations.py" ]] || exit 99\n'
+                    'expected="90 python bin/update_scholar_citations.py"\n'
+                    '[[ "$FORCE_UPDATE" == "true" ]] && expected+=" --force"\n'
+                    '[[ "$*" == "$expected" ]] || exit 99\n'
                     'exit "$TEST_EXIT_STATUS"\n'
                 )
                 command.chmod(0o755)
@@ -72,6 +77,7 @@ class CitationUpdaterTests(unittest.TestCase):
                         "PATH": str(directory) + os.pathsep + os.environ["PATH"],
                         "GITHUB_STEP_SUMMARY": str(summary),
                         "TEST_EXIT_STATUS": str(status),
+                        "FORCE_UPDATE": force,
                     },
                     capture_output=True,
                     text=True,
@@ -82,6 +88,39 @@ class CitationUpdaterTests(unittest.TestCase):
                 self.assertIn(expected, summary.read_text())
                 if status:
                     self.assertNotIn("succeeded", summary.read_text())
+
+    def test_force_bypasses_same_day_cache_and_preserves_data_on_failure(self):
+        with tempfile.TemporaryDirectory() as directory:
+            previous_directory = Path.cwd()
+            try:
+                os.chdir(directory)
+                data = Path("_data")
+                data.mkdir()
+                (data / "socials.yml").write_text("scholar_userid: offline-test\n")
+                output = data / "citations.yml"
+                output.write_text(yaml.safe_dump({
+                    "metadata": {"last_updated": datetime.now().strftime("%Y-%m-%d")},
+                    "papers": {},
+                }))
+                before = output.read_bytes()
+                module = runpy.run_path(str(ROOT / "bin/update_scholar_citations.py"))
+                scholarly = module["scholarly"]
+                with mock.patch.object(scholarly, "search_author_id") as search, mock.patch.object(
+                    scholarly, "fill", return_value={"publications": []}
+                ) as fill:
+                    module["get_scholar_citations"]()
+                    search.assert_not_called()
+                    module["get_scholar_citations"](force=True)
+                    search.assert_called_once_with("offline-test")
+                    fill.assert_called_once_with(search.return_value)
+                    self.assertEqual(output.read_bytes(), before)
+                    search.side_effect = RuntimeError("Scholar unavailable")
+                    with self.assertRaises(SystemExit) as error:
+                        module["get_scholar_citations"](force=True)
+                    self.assertEqual(error.exception.code, 1)
+                    self.assertEqual(output.read_bytes(), before)
+            finally:
+                os.chdir(previous_directory)
 
 
 if __name__ == "__main__":

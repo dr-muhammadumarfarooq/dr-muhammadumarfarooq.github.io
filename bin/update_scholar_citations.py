@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import argparse
 import os
 import sys
 import yaml
@@ -36,11 +37,12 @@ SCHOLAR_USER_ID: str = load_scholar_user_id()
 OUTPUT_FILE: str = "_data/citations.yml"
 
 
-def get_scholar_citations() -> None:
+def get_scholar_citations(force: bool = False) -> None:
     """Fetch and update Google Scholar citation data."""
     print(f"Fetching citations for Google Scholar ID: {SCHOLAR_USER_ID}")
     today = datetime.now().strftime("%Y-%m-%d")
 
+    existing_data = None
     # Check if the output file was already updated today
     if os.path.exists(OUTPUT_FILE):
         try:
@@ -52,7 +54,7 @@ def get_scholar_citations() -> None:
                 and "last_updated" in existing_data["metadata"]
             ):
                 print(f"Last updated on: {existing_data['metadata']['last_updated']}")
-                if existing_data["metadata"]["last_updated"] == today:
+                if existing_data["metadata"]["last_updated"] == today and not force:
                     print("Citations data is already up-to-date. Skipping fetch.")
                     return
         except Exception as e:
@@ -125,8 +127,13 @@ def get_scholar_citations() -> None:
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Update Google Scholar citations.")
+    parser.add_argument(
+        "--force", action="store_true", help="Fetch even if the data was updated today."
+    )
+    args = parser.parse_args()
     try:
-        get_scholar_citations()
+        get_scholar_citations(force=args.force)
     except Exception as e:
         print(f"Unexpected error: {e}")
         sys.exit(1)
